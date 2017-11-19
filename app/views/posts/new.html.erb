@@ -1,0 +1,15 @@
+<h1>New Post</h1>
+
+<%= form_for :post, url: posts_path do |f| %>
+  <div>
+    <%= f.text_field :title, placeholder: "Title" %>
+  </div><br>
+
+  <div>
+    <%= f.text_area :body, placeholder: "Body" %>
+  </div><br>
+
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>
