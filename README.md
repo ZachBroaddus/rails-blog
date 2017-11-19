@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# rails-blog
+first blog built with Rails
+
