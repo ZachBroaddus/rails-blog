@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'normalize';
+
+ ul {
+  list-style: none;
+ }
+
+.red {
+  color: red;
+}
