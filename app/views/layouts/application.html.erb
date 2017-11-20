@@ -16,7 +16,6 @@
         <li><%= link_to 'About', about_path %></li>
       </ul>
 
-      <!-- put logic here to show appropriate buttons for session -->
       <% if current_user %>
         Logged in as <%= current_user.email %>.<br>
         <%= link_to "Log Out", logout_path %>
