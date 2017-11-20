@@ -9,6 +9,8 @@
       </ul>
     </div>
   <% end %>
+
+
   <div>
     <%= f.text_field :title, placeholder: "Title" %>
   </div><br>
@@ -17,6 +19,26 @@
     <%= f.text_area :body, placeholder: "Body" %>
   </div><br>
 
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %><br><br><br>
+
+
+
+
+
+
+
+
+<!-- Example of form_with -->
+<%= form_with model: @post do |f| %>
+  <div>
+    <%= f.text_field :title, placeholder: "Title" %>
+  </div><br>
+  <div>
+    <%= f.text_area :body, placeholder: "Body" %>
+  </div>
   <div>
     <%= f.submit %>
   </div>
